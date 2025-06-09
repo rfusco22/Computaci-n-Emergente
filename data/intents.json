@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "lugares_turisticos",
+      "patterns": [
+        "¿Qué lugares puedo visitar en la ciudad?",
+        "Recomendaciones turísticas",
+        "¿Qué ver en Bogotá?"
+      ],
+      "responses": [
+        "🏞️ ¡Tienes que subir a Monserrate para una vista espectacular de Bogotá! También puedes explorar el histórico barrio de La Candelaria y visitar el increíble Museo del Oro 🏛️.",
+        "🌆 No te pierdas el centro histórico, el Jardín Botánico 🌸 y el Parque Simón Bolívar para disfrutar de la naturaleza en la ciudad."
+      ]
+    },
+    {
+      "tag": "restaurantes",
+      "patterns": [
+        "¿Dónde puedo comer bien?",
+        "Restaurantes recomendados",
+        "Quiero probar comida típica"
+      ],
+      "responses": [
+        "🍽️ ¡Buen provecho! Te recomiendo 'Andrés Carne de Res' para una experiencia vibrante o 'Casa Vieja' para comida tradicional colombiana 🥘.",
+        "👨‍🍳 Si buscas alta cocina, 'El Cielo' es una opción increíble. Para algo típico, no te pierdas 'La Puerta Falsa' con su ajiaco y tamal 😋."
+      ]
+    },
+    {
+      "tag": "clima_ciudad",
+      "patterns": [
+        "¿Qué clima hace hoy?",
+        "¿Va a llover?",
+        "¿Debo llevar abrigo hoy?"
+      ],
+      "responses": [
+        "🌤️ Hoy se espera un clima agradable con una temperatura de alrededor de 23°C. Ideal para caminar por la ciudad.",
+        "🌧️ Se pronostican lluvias por la tarde. ¡No olvides tu paraguas y una chaqueta ligera! ☔"
+      ]
+    },
+    {
+      "tag": "horarios_lugares",
+      "patterns": [
+        "¿A qué hora abre el museo?",
+        "Horarios del parque",
+        "¿Hasta qué hora funciona Monserrate?"
+      ],
+      "responses": [
+        "🕘 El Museo del Oro abre de martes a sábado de 9 a.m. a 5 p.m. y los domingos de 10 a.m. a 4 p.m. ¡Un lugar lleno de historia precolombina!",
+        "🚡 Monserrate está abierto todos los días hasta las 10 p.m. ¡La vista nocturna es espectacular!"
+      ]
+    },
+    {
+      "tag": "transporte_ciudad",
+      "patterns": [
+        "¿Cómo me muevo en la ciudad?",
+        "¿Hay transporte público?",
+        "¿Cómo llego al centro?"
+      ],
+      "responses": [
+        "🚌 Puedes usar el TransMilenio, que cubre toda la ciudad. También hay buses SITP y taxis disponibles.",
+        "🚕 Para mayor comodidad, puedes usar Uber o Didi. Si prefieres transporte público, el TransMilenio te lleva directo al centro histórico."
+      ]
+    }
+  ]
+}
